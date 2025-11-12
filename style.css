@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #773F8E 0%, #E68FAF 100%);
 }
 
 
@@ -8,13 +9,13 @@ header {
   display: flex;
   justify-content: flex-end; 
   align-items: center;
-  background-color: #222; 
+  background-color: #white; 
   padding: 15px;
 }
 
-/* Botones del menú */
+
 .nav-buttons button {
-  background-color: #4CAF50; 
+  background: linear-gradient(180deg, #773F8E 0%, #E68FAF 100%); 
   color: white;
   border: none;
   padding: 10px 15px;
@@ -22,6 +23,7 @@ header {
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-buttons button:hover {
