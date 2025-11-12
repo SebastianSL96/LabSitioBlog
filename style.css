@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  background-color: #222; 
+  padding: 15px;
+}
+
+/* Botones del menú */
+.nav-buttons button {
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.nav-buttons button:hover {
+  background-color: #45a049;
+}
