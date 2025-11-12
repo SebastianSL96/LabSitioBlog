@@ -1,3 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #773F8E 0%, #E68FAF 100%);
+}
+
+
+header {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  background-color: white; 
+  padding: 15px;
+}
+
+
+.nav-buttons button {
+  background: linear-gradient(180deg, #773F8E 0%, #E68FAF 100%); 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-buttons button:hover {
+  background-color: #45a049;
+}
+
 #p_pagina{
     background-color: rgba(8, 1, 46, 0.29);
     width: auto;
@@ -5,4 +38,14 @@
     text-align: center;
     font-style: italic;
     color:grey
+}
+#contactos{
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    margin: 20px;
+    padding-top: 30px;
+}
+main{
+    margin-top: 20px;
 }
