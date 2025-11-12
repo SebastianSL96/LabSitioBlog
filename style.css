@@ -57,12 +57,64 @@ background-color: white;
     color:grey
 }
 #contactos{
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     text-align: center;
     margin: 20px;
     padding-top: 30px;
 }
 main{
     margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    gap: 40px;   
+}
+
+.navbar {
+    display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 24px;
+}
+
+.navbar a {
+  color: #f5f6fa;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 16px 8px;
+  display: block;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 6px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background: #393e46;
+  color: #00adb5;
+}
+#imagen {
+  width: 45%;                     /* ajusta según lo que quieras ocupar */
+  display: flex;
+  justify-content: flex-end;      /* empuja la imagen a la derecha */
+  align-items: center;
+}
+
+#imagen img {
+  width: 350px;                   /* ajusta el tamaño de la imagen aquí */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
