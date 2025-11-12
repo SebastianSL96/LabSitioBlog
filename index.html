@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
     <div class="nav-buttons">
-    
     <button onclick="window.location.href='blog.html'" type="button">Blog de Videojuegos</button>
     <button onclick="window.location.href='acerca.html'" type="button">Acerca de Nosotros</button>
     <button onclick="window.location.href='contactanos.html'" type="button">contactanos</button>
-    
    </div>
     </header>
-    
+    <nav class="navbar">
+  <ul>
+    <li><a href="index.html" id="link-Incio" onclick="navegar('Incio')">Inicio</a></li>
+    <li><a href="acerca.html" id="link-Quienes" onclick="navegar('Quienes')">Quienes somos</a></li>
+    <li><a href="contactanos.html" id="link-Contacto" onclick="navegar('Contacto')">Contacto</a></li>
+  </ul>  
+</nav>
+
     <div class="noticia">
     <h1>Hola Gamer</h1>
     <h2>Bienvenido al mejor contenido</h2>
@@ -25,5 +31,13 @@
     </div>
 
     <script src="main.js"></script>
+<footer id="p_pagina">
+        <div>
+            <h2 id="tpie">Blog de Videojuegos</h2>
+            <p><strong>Desarrollado por:</strong> Samary Cardozo, Daved Benavides, Sebastian Leiva, Santiago Rios</p>
+            <p><strong>Escribenos:</strong> Blogdejuegos@gmail.com</p>
+            <p>© 2025</p>
+        </div>
+    </footer>
 </body>
 </html>
